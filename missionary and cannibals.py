@@ -13,7 +13,7 @@ print("Rule7: Two Missionary are selling boat from Bank 2 to Bank 1")
 print("Rule8: One Missionary and One Cannibal are selling boat from bank 2 to bank 1")
 print("Rule9: One Cannibal is selling boat from Bank 2 to Bank 1")
 print("Rule10: Two Cannibals are selling boat from Bank2 to Bank 1")
-while((M1!=3) or (M2 != 3)):
+while((C2!=3) or (M2 != 3)):
   r=int(input("Enter Rules: "))
   if(r==1):
     M1 = M1-1
@@ -54,3 +54,4 @@ while((M1!=3) or (M2 != 3)):
   if((M1>0 and  M1<C1) or (M2>0 and  M2<C2)):
     print("dead")
     break
+print("Goal Achieved")
